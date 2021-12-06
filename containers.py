@@ -1,9 +1,5 @@
 # Lecture 2
 # 03.12.2021
-
-import time
-import sys
-
 """
 Task 1
 to create doubly linked list (methods: insert, delete, reverse)
@@ -13,6 +9,11 @@ Each node has 3 fields: two link fields that are references to the address
 of the previous and next nodes in the sequence.
 Another one data field refers to the data for that particular node.
 """
+
+
+import time
+import sys
+
 
 
 class Node:
