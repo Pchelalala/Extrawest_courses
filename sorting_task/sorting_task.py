@@ -76,3 +76,10 @@ while iterator < len(list_sorted):
         iterator += 1
 
 print(result_list)
+
+example = [WAGER_TYPES.get(purchase_type)
+           for purchase_type in PURCHASE_SETTINGS_ORDER
+           if purchase_type in
+           [item["wagerType"] for item in purchase_settings]]
+
+assert result_list == example
